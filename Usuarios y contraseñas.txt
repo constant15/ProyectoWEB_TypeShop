@@ -1,0 +1,12 @@
+Admin
+email: nicooli@gmail.com
+pass: 12345678
+
+
+Usuario
+
+email:jPe@hotmail.com
+pass: 12345678
+
+
+

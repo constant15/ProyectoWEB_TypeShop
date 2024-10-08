@@ -1,0 +1,245 @@
+CRITICAL - 2023-05-31 17:34:07 --> Undefined array key "id"
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\Login_controller.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(832): App\Controllers\Login_controller->auth()
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login_controller))
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-05-31 17:34:40 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2023-05-31 17:34:40 --> Unknown column 'id' in 'order clause'
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\usuario_crud_controller.php(10): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(832): App\Controllers\usuario_crud_controller->index()
+#8 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+#9 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-05-31 17:34:59 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2023-05-31 17:34:59 --> Unknown column 'id' in 'order clause'
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\usuario_crud_controller.php(10): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(832): App\Controllers\usuario_crud_controller->index()
+#8 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+#9 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-31 17:36:12 --> Undefined array key "id"
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Views\back\usuario\crud_usuarios.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Common.php(1089): CodeIgniter\View\View->render('back/usuario/cr...', Array, true)
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\usuario_crud_controller.php(14): view('back/usuario/cr...', Array)
+#5 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(832): App\Controllers\usuario_crud_controller->index()
+#6 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+#7 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-31 17:36:42 --> Undefined array key "id"
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Views\back\usuario\crud_usuarios.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Common.php(1089): CodeIgniter\View\View->render('back/usuario/cr...', Array, true)
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\usuario_crud_controller.php(14): view('back/usuario/cr...', Array)
+#5 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(832): App\Controllers\usuario_crud_controller->index()
+#6 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+#7 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-31 17:37:09 --> Undefined array key "id"
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Views\back\usuario\crud_usuarios.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Common.php(1089): CodeIgniter\View\View->render('back/usuario/cr...', Array, true)
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\usuario_crud_controller.php(14): view('back/usuario/cr...', Array)
+#5 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(832): App\Controllers\usuario_crud_controller->index()
+#6 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+#7 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-31 17:37:11 --> Undefined array key "id"
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Views\back\usuario\crud_usuarios.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Common.php(1089): CodeIgniter\View\View->render('back/usuario/cr...', Array, true)
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\usuario_crud_controller.php(14): view('back/usuario/cr...', Array)
+#5 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(832): App\Controllers\usuario_crud_controller->index()
+#6 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+#7 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-05-31 17:37:29 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2023-05-31 17:37:29 --> Unknown column 'id' in 'order clause'
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\usuario_crud_controller.php(10): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(832): App\Controllers\usuario_crud_controller->index()
+#8 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+#9 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-31 17:37:54 --> Undefined array key "id"
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Views\back\usuario\crud_usuarios.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Common.php(1089): CodeIgniter\View\View->render('back/usuario/cr...', Array, true)
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\usuario_crud_controller.php(14): view('back/usuario/cr...', Array)
+#5 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(832): App\Controllers\usuario_crud_controller->index()
+#6 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+#7 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-31 17:38:36 --> Undefined array key "id"
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Views\back\usuario\crud_usuarios.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Common.php(1089): CodeIgniter\View\View->render('back/usuario/cr...', Array, true)
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\usuario_crud_controller.php(14): view('back/usuario/cr...', Array)
+#5 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(832): App\Controllers\usuario_crud_controller->index()
+#6 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+#7 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-31 17:38:37 --> Undefined array key "id"
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Views\back\usuario\crud_usuarios.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Common.php(1089): CodeIgniter\View\View->render('back/usuario/cr...', Array, true)
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\usuario_crud_controller.php(14): view('back/usuario/cr...', Array)
+#5 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(832): App\Controllers\usuario_crud_controller->index()
+#6 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+#7 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-31 17:38:45 --> Undefined array key "id"
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Views\back\usuario\crud_usuarios.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Common.php(1089): CodeIgniter\View\View->render('back/usuario/cr...', Array, true)
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\usuario_crud_controller.php(14): view('back/usuario/cr...', Array)
+#5 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(832): App\Controllers\usuario_crud_controller->index()
+#6 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+#7 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-31 17:38:47 --> Undefined array key "id"
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Views\back\usuario\crud_usuarios.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Common.php(1089): CodeIgniter\View\View->render('back/usuario/cr...', Array, true)
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\usuario_crud_controller.php(14): view('back/usuario/cr...', Array)
+#5 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(832): App\Controllers\usuario_crud_controller->index()
+#6 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+#7 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-05-31 17:39:15 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2023-05-31 17:39:15 --> Unknown column 'id' in 'where clause'
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\usuario_crud_controller.php(90): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(832): App\Controllers\usuario_crud_controller->singleUser('20')
+#8 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+#9 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-05-31 17:39:59 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2023-05-31 17:39:59 --> Unknown column 'id' in 'where clause'
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\usuario_crud_controller.php(90): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(832): App\Controllers\usuario_crud_controller->singleUser('20')
+#8 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+#9 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-05-31 17:40:01 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2023-05-31 17:40:01 --> Unknown column 'id' in 'where clause'
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\usuario_crud_controller.php(90): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(832): App\Controllers\usuario_crud_controller->singleUser('20')
+#8 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+#9 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-31 17:40:22 --> Undefined array key "id"
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Views\back\usuario\modificaUsuario.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Common.php(1089): CodeIgniter\View\View->render('back/usuario/mo...', Array, true)
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\usuario_crud_controller.php(95): view('back/usuario/mo...', Array)
+#5 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(832): App\Controllers\usuario_crud_controller->singleUser('20')
+#6 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+#7 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-31 17:40:28 --> Undefined array key "id"
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Views\back\usuario\modificaUsuario.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Common.php(1089): CodeIgniter\View\View->render('back/usuario/mo...', Array, true)
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\usuario_crud_controller.php(95): view('back/usuario/mo...', Array)
+#5 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(832): App\Controllers\usuario_crud_controller->singleUser('20')
+#6 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+#7 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-31 17:40:31 --> Undefined array key "id"
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Views\back\usuario\modificaUsuario.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Common.php(1089): CodeIgniter\View\View->render('back/usuario/mo...', Array, true)
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\usuario_crud_controller.php(95): view('back/usuario/mo...', Array)
+#5 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(832): App\Controllers\usuario_crud_controller->singleUser('20')
+#6 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+#7 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-31 17:40:32 --> Undefined array key "id"
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Views\back\usuario\modificaUsuario.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Common.php(1089): CodeIgniter\View\View->render('back/usuario/mo...', Array, true)
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\usuario_crud_controller.php(95): view('back/usuario/mo...', Array)
+#5 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(832): App\Controllers\usuario_crud_controller->singleUser('20')
+#6 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+#7 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-31 17:40:34 --> Undefined array key "id"
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Views\back\usuario\modificaUsuario.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Common.php(1089): CodeIgniter\View\View->render('back/usuario/mo...', Array, true)
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\usuario_crud_controller.php(95): view('back/usuario/mo...', Array)
+#5 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(832): App\Controllers\usuario_crud_controller->singleUser('20')
+#6 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+#7 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

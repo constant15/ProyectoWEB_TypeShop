@@ -1,0 +1,50 @@
+CRITICAL - 2023-06-07 02:09:15 --> Undefined variable $dato
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\usuario_crud_controller.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 99)
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(832): App\Controllers\usuario_crud_controller->singleUser('37')
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-07 02:12:14 --> Creation of dynamic property App\Controllers\Consulta_controller::$consulta is deprecated
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\Consulta_controller.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(809): App\Controllers\Consulta_controller->__construct()
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-07 03:09:40 --> Creation of dynamic property App\Controllers\Consulta_controller::$consulta is deprecated
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\Consulta_controller.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(809): App\Controllers\Consulta_controller->__construct()
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-07 03:18:36 --> Creation of dynamic property App\Controllers\Consulta_controller::$consulta is deprecated
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\Consulta_controller.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(809): App\Controllers\Consulta_controller->__construct()
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-07 04:25:36 --> Undefined array key "baja"
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Views\back\carrito\catalogo_view.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/ca...', Array, true)
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\carrito_controller.php(38): view('back/carrito/ca...', Array)
+#5 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(832): App\Controllers\carrito_controller->catalogo()
+#6 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+#7 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-07 04:25:58 --> Undefined array key "baja"
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Views\back\carrito\catalogo_view.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/ca...', Array, true)
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\carrito_controller.php(38): view('back/carrito/ca...', Array)
+#5 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(832): App\Controllers\carrito_controller->catalogo()
+#6 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+#7 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

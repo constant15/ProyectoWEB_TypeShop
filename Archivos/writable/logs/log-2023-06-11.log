@@ -1,0 +1,206 @@
+CRITICAL - 2023-06-11 00:55:51 --> syntax error, unexpected token "<"
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/ca...', Array, true)
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\carrito_controller.php(36): view('back/carrito/ca...', Array)
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(832): App\Controllers\carrito_controller->catalogo()
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+#5 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-11 03:20:50 --> Unclosed '{' on line 10
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/ca...', Array, true)
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\carrito_controller.php(36): view('back/carrito/ca...', Array)
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(832): App\Controllers\carrito_controller->catalogo()
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+#5 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-11 03:23:38 --> syntax error, unexpected token "<"
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/ca...', Array, true)
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\carrito_controller.php(36): view('back/carrito/ca...', Array)
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(832): App\Controllers\carrito_controller->catalogo()
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+#5 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-11 03:24:23 --> Unclosed '{' on line 29
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/ca...', Array, true)
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\carrito_controller.php(36): view('back/carrito/ca...', Array)
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(832): App\Controllers\carrito_controller->catalogo()
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+#5 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-11 03:36:38 --> Undefined array key "baja"
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Views\back\carrito\catalogo_vista.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/ca...', Array, true)
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\carrito_controller.php(36): view('back/carrito/ca...', Array)
+#5 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(832): App\Controllers\carrito_controller->catalogo()
+#6 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+#7 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-11 14:38:07 --> Unclosed '{' on line 12
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Common.php(1089): CodeIgniter\View\View->render('front/nabvar', Array, true)
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\Home.php(11): view('front/nabvar')
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-11 14:41:03 --> Unclosed '{' on line 14
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Common.php(1089): CodeIgniter\View\View->render('front/nabvar', Array, true)
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\Home.php(11): view('front/nabvar')
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-11 14:45:33 --> Unclosed '{' on line 14
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Common.php(1089): CodeIgniter\View\View->render('front/nabvar', Array, true)
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\Home.php(11): view('front/nabvar')
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-11 14:45:34 --> Unclosed '{' on line 14
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Common.php(1089): CodeIgniter\View\View->render('front/nabvar', Array, true)
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\Home.php(11): view('front/nabvar')
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-11 14:48:18 --> Unclosed '{' on line 14
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Common.php(1089): CodeIgniter\View\View->render('front/nabvar', Array, true)
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\Home.php(11): view('front/nabvar')
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-11 14:48:19 --> Unclosed '{' on line 14
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Common.php(1089): CodeIgniter\View\View->render('front/nabvar', Array, true)
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\Home.php(11): view('front/nabvar')
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-11 14:53:10 --> Creation of dynamic property App\Controllers\Consulta_controller::$consulta is deprecated
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\Consulta_controller.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(809): App\Controllers\Consulta_controller->__construct()
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-11 15:01:20 --> Creation of dynamic property App\Controllers\Consulta_controller::$consulta is deprecated
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\Consulta_controller.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(809): App\Controllers\Consulta_controller->__construct()
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-11 15:01:22 --> Creation of dynamic property App\Controllers\Consulta_controller::$consulta is deprecated
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\Consulta_controller.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(809): App\Controllers\Consulta_controller->__construct()
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-11 15:12:49 --> Creation of dynamic property App\Controllers\Consulta_controller::$consulta is deprecated
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\Consulta_controller.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(809): App\Controllers\Consulta_controller->__construct()
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-11 15:12:51 --> Creation of dynamic property App\Controllers\Consulta_controller::$consulta is deprecated
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\Consulta_controller.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(809): App\Controllers\Consulta_controller->__construct()
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-11 15:14:21 --> Creation of dynamic property App\Controllers\Consulta_controller::$session is deprecated
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\Consulta_controller.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(809): App\Controllers\Consulta_controller->__construct()
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-11 15:14:22 --> Creation of dynamic property App\Controllers\Consulta_controller::$session is deprecated
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\Consulta_controller.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(809): App\Controllers\Consulta_controller->__construct()
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-11 15:18:53 --> Creation of dynamic property App\Controllers\Consulta_controller::$session is deprecated
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\Consulta_controller.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(809): App\Controllers\Consulta_controller->__construct()
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-11 15:18:55 --> Creation of dynamic property App\Controllers\Consulta_controller::$session is deprecated
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\Consulta_controller.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(809): App\Controllers\Consulta_controller->__construct()
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-11 16:21:30 --> Creation of dynamic property App\Controllers\Consulta_controller::$session is deprecated
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\Consulta_controller.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(809): App\Controllers\Consulta_controller->__construct()
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-11 16:21:33 --> Creation of dynamic property App\Controllers\Consulta_controller::$session is deprecated
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\Consulta_controller.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(809): App\Controllers\Consulta_controller->__construct()
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-11 17:27:48 --> Creation of dynamic property App\Controllers\Consulta_controller::$session is deprecated
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\Consulta_controller.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(809): App\Controllers\Consulta_controller->__construct()
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-11 17:27:50 --> Creation of dynamic property App\Controllers\Consulta_controller::$session is deprecated
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\Consulta_controller.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(809): App\Controllers\Consulta_controller->__construct()
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-06-11 17:27:58 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2023-06-11 17:27:58 --> Unknown column 'id' in 'order clause'
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\Consulta_controller.php(43): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(832): App\Controllers\Consulta_controller->ver_consulta()
+#8 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consulta_controller))
+#9 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}

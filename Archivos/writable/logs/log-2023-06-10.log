@@ -1,0 +1,54 @@
+CRITICAL - 2023-06-10 00:36:50 --> Creation of dynamic property App\Controllers\Consulta_controller::$consulta is deprecated
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\Consulta_controller.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(809): App\Controllers\Consulta_controller->__construct()
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-10 14:38:12 --> Interface "CodeIgniter\Filters\FiltersInterface" not found
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\Aut...')
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Filters\Filters.php(166): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\Aut...')
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('muestro', 'before')
+#5 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-10 14:57:38 --> Interface "CodeIgniter\Filters\FiltersInterface" not found
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\Aut...')
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Filters\Filters.php(166): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\Aut...')
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('muestro', 'before')
+#5 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-10 20:49:42 --> Interface "CodeIgniter\Filters\FiltersInterface" not found
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\Aut...')
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Filters\Filters.php(166): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\Aut...')
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('todos_p', 'before')
+#5 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-10 20:49:48 --> Interface "CodeIgniter\Filters\FiltersInterface" not found
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\Aut...')
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Filters\Filters.php(166): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\Aut...')
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('todos_p', 'before')
+#5 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-10 21:55:01 --> Undefined array key "baja"
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Views\back\carrito\catalogo_vista.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/ca...', Array, true)
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\carrito_controller.php(36): view('back/carrito/ca...', Array)
+#5 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(832): App\Controllers\carrito_controller->catalogo()
+#6 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+#7 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

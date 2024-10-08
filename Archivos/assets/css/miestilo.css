@@ -1,0 +1,172 @@
+p{
+	font-family:'Times New Roman', Times, serif;/*tipo de letras*/
+	text-align: center;/*alineacion de texto*/
+	color: black;/*color de la fuente*/
+	font-size: 25px;/*tamaño de la fuente*/
+	font-style: normal;/*estilo*/
+	font-weight:normal;/*negrito o fuerte*/
+}
+
+/*Estilo del fondo de todo el sitio web*/
+body{
+	background-color: rgb(175, 227, 231);/*color de fondo del body*/
+	font-family: 'Times New Roman', Times, serif;
+	color: black; 
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+
+/*color y alineación de la etiqueta h1 y h2*/
+h1, h2{
+	padding: 10px;
+	text-align: center;
+	font-weight:bold;
+}
+
+/*color y alineación de la etiqueta h3*/
+h3{
+	text-align: center;
+	font-weight: bold;
+}
+
+/*Margenes del div que contiene la clase rec*/
+.rec{
+	padding: 0px 20px;
+	margin-bottom: 40px;
+}
+
+/*Distribucion de las tarjetas de los equipos de las diferentes marcas*/
+.distrib_card{
+	display:flex;
+	margin-right: auto;
+	justify-content:space-between;
+	
+}
+
+/*Efecto de sombreado de cada tarjeta*/
+.card:hover{
+	box-shadow: 5px 5px 20px rgba(0, 0, 0, 4);
+	transform: translateY(-3%);
+	transition: .7s;
+
+}
+
+/*Contenedor de comercializacion*/
+.container{
+	background-color: rgb(175, 227, 231) ;
+	width: 100%;
+	margin-top: 50px;
+
+}
+
+
+
+/*Diseño del footer*/
+.footer_prin{
+	height: 50px;
+	display: flex;
+	background-color: whitesmoke;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: auto; 
+	margin-top: auto;
+}
+
+/* Da color a los iconos de redes sociales*/
+.bi {
+	vertical-align: -.125em;
+	fill: currentColor;
+}
+
+/*Efecto de sombreado de los iconos de redes sociales del footer*/
+li:hover { 
+	font-size:18px;  
+	transform:translateY(-10%);
+	transition: .7s;
+}
+
+/*Margenes de la clase contenedor_quienes de la seccion "quienes somos"*/
+.contenedor_quienes {
+	margin-top: 100px;
+	vertical-align: top;
+	padding-left: 150px;
+	padding-right: 150px;
+	
+}
+
+/*Alineacion y padding de los parrafos p de la seccion "quienes somos"*/
+.contenedor_quienes p{
+	text-align:center;
+	padding-left:  25px;
+	padding-right: 25px;
+}
+
+/*Padding del contenido de la seccion "Terminos y usos"*/
+.margen{
+	padding: 150px;
+}
+
+/*Alineacion del parrafo p de la seccion "Terminos y usos"*/
+.margen p{
+	text-align:justify;
+}
+
+/*Estilo de la seccion "Informacion de contacto"*/
+.container_Cont{
+	display: flex;
+	justify-content: center;
+	align-items:center;
+}
+
+
+/*Color de fondo de la tarjeta contacto de la seccion "Informacion de contacto"*/
+.card_contacto{
+	background-color: whitesmoke;
+
+}
+
+/*Ubicacion en tiempo real de la empresa*/
+.mapa{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/*Estilo del formulario de registro de usuario*/
+.card-registro{
+	background-color: whitesmoke;
+	
+}
+
+.card-modif-usu{
+	background-color: whitesmoke;
+}
+
+.card-agr-usu{
+	background-color: whitesmoke;
+}
+
+
+
+.card-Agr-Prod{
+	background-color: whitesmoke;
+}
+
+.card-A-P{
+	background-color: whitesmoke;
+}
+
+.card-editar-prod{
+	background-color: whitesmoke;
+}
+
+
+.profile-card-4:hover{
+	box-shadow: 5px 5px 20px rgba(0, 0, 0, 4);
+	transform: translateY(-3%);
+	transition: .7s;
+
+}

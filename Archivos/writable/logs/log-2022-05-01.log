@@ -1,0 +1,261 @@
+CRITICAL - 2022-05-01 19:09:29 --> Invalid file: quienessomos.php
+#0 C:\xampp\htdocs\P2022\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('quienessomos.ph...')
+#1 C:\xampp\htdocs\P2022\system\Common.php(1089): CodeIgniter\View\View->render('quienessomos', Array, true)
+#2 C:\xampp\htdocs\P2022\app\Controllers\Home.php(20): view('quienessomos')
+#3 C:\xampp\htdocs\P2022\system\CodeIgniter.php(832): App\Controllers\Home->quienessomos()
+#4 C:\xampp\htdocs\P2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\P2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\P2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-01 19:12:56 --> Invalid file: quienessomos.php
+#0 C:\xampp\htdocs\P2022\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('quienessomos.ph...')
+#1 C:\xampp\htdocs\P2022\system\Common.php(1089): CodeIgniter\View\View->render('quienessomos', Array, true)
+#2 C:\xampp\htdocs\P2022\app\Controllers\Home.php(20): view('quienessomos')
+#3 C:\xampp\htdocs\P2022\system\CodeIgniter.php(832): App\Controllers\Home->quienessomos()
+#4 C:\xampp\htdocs\P2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\P2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\P2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-01 19:13:00 --> Invalid file: quienessomos.php
+#0 C:\xampp\htdocs\P2022\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('quienessomos.ph...')
+#1 C:\xampp\htdocs\P2022\system\Common.php(1089): CodeIgniter\View\View->render('quienessomos', Array, true)
+#2 C:\xampp\htdocs\P2022\app\Controllers\Home.php(20): view('quienessomos')
+#3 C:\xampp\htdocs\P2022\system\CodeIgniter.php(832): App\Controllers\Home->quienessomos()
+#4 C:\xampp\htdocs\P2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\P2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\P2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-01 20:00:59 --> Invalid file: quienessomos.php
+#0 C:\xampp\htdocs\P2022\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('quienessomos.ph...')
+#1 C:\xampp\htdocs\P2022\system\Common.php(1089): CodeIgniter\View\View->render('quienessomos', Array, true)
+#2 C:\xampp\htdocs\P2022\app\Controllers\Home.php(20): view('quienessomos')
+#3 C:\xampp\htdocs\P2022\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\P2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\P2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\P2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-01 20:01:59 --> Invalid file: quienessomos.php
+#0 C:\xampp\htdocs\P2022\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('quienessomos.ph...')
+#1 C:\xampp\htdocs\P2022\system\Common.php(1089): CodeIgniter\View\View->render('quienessomos', Array, true)
+#2 C:\xampp\htdocs\P2022\app\Controllers\Home.php(20): view('quienessomos')
+#3 C:\xampp\htdocs\P2022\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\P2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\P2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\P2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-01 20:02:00 --> Invalid file: comercializacion.php
+#0 C:\xampp\htdocs\P2022\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('comercializacio...')
+#1 C:\xampp\htdocs\P2022\system\Common.php(1089): CodeIgniter\View\View->render('comercializacio...', Array, true)
+#2 C:\xampp\htdocs\P2022\app\Controllers\Home.php(29): view('comercializacio...')
+#3 C:\xampp\htdocs\P2022\system\CodeIgniter.php(832): App\Controllers\Home->comercializacion()
+#4 C:\xampp\htdocs\P2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\P2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\P2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-01 20:02:01 --> Invalid file: quienessomos.php
+#0 C:\xampp\htdocs\P2022\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('quienessomos.ph...')
+#1 C:\xampp\htdocs\P2022\system\Common.php(1089): CodeIgniter\View\View->render('quienessomos', Array, true)
+#2 C:\xampp\htdocs\P2022\app\Controllers\Home.php(20): view('quienessomos')
+#3 C:\xampp\htdocs\P2022\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\P2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\P2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\P2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-01 20:06:35 --> Invalid file: comercializacion.php
+#0 C:\xampp\htdocs\P2022\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('comercializacio...')
+#1 C:\xampp\htdocs\P2022\system\Common.php(1089): CodeIgniter\View\View->render('comercializacio...', Array, true)
+#2 C:\xampp\htdocs\P2022\app\Controllers\Home.php(29): view('comercializacio...')
+#3 C:\xampp\htdocs\P2022\system\CodeIgniter.php(832): App\Controllers\Home->comercializacion()
+#4 C:\xampp\htdocs\P2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\P2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\P2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-01 20:11:57 --> Invalid file: comercializacion.php
+#0 C:\xampp\htdocs\P2022\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('comercializacio...')
+#1 C:\xampp\htdocs\P2022\system\Common.php(1089): CodeIgniter\View\View->render('comercializacio...', Array, true)
+#2 C:\xampp\htdocs\P2022\app\Controllers\Home.php(29): view('comercializacio...')
+#3 C:\xampp\htdocs\P2022\system\CodeIgniter.php(832): App\Controllers\Home->comercializacion()
+#4 C:\xampp\htdocs\P2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\P2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\P2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-01 20:11:59 --> Invalid file: informacion_de_contacto.php
+#0 C:\xampp\htdocs\P2022\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('informacion_de_...')
+#1 C:\xampp\htdocs\P2022\system\Common.php(1089): CodeIgniter\View\View->render('informacion_de_...', Array, true)
+#2 C:\xampp\htdocs\P2022\app\Controllers\Home.php(38): view('informacion_de_...')
+#3 C:\xampp\htdocs\P2022\system\CodeIgniter.php(832): App\Controllers\Home->informacion_de_contacto()
+#4 C:\xampp\htdocs\P2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\P2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\P2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-01 20:12:00 --> Invalid file: comercializacion.php
+#0 C:\xampp\htdocs\P2022\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('comercializacio...')
+#1 C:\xampp\htdocs\P2022\system\Common.php(1089): CodeIgniter\View\View->render('comercializacio...', Array, true)
+#2 C:\xampp\htdocs\P2022\app\Controllers\Home.php(29): view('comercializacio...')
+#3 C:\xampp\htdocs\P2022\system\CodeIgniter.php(832): App\Controllers\Home->comercializacion()
+#4 C:\xampp\htdocs\P2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\P2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\P2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-01 20:12:06 --> Invalid file: comercializacion.php
+#0 C:\xampp\htdocs\P2022\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('comercializacio...')
+#1 C:\xampp\htdocs\P2022\system\Common.php(1089): CodeIgniter\View\View->render('comercializacio...', Array, true)
+#2 C:\xampp\htdocs\P2022\app\Controllers\Home.php(29): view('comercializacio...')
+#3 C:\xampp\htdocs\P2022\system\CodeIgniter.php(832): App\Controllers\Home->comercializacion()
+#4 C:\xampp\htdocs\P2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\P2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\P2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-01 20:14:08 --> Invalid file: comercializacion.php
+#0 C:\xampp\htdocs\P2022\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('comercializacio...')
+#1 C:\xampp\htdocs\P2022\system\Common.php(1089): CodeIgniter\View\View->render('comercializacio...', Array, true)
+#2 C:\xampp\htdocs\P2022\app\Controllers\Home.php(29): view('comercializacio...')
+#3 C:\xampp\htdocs\P2022\system\CodeIgniter.php(832): App\Controllers\Home->comercializacion()
+#4 C:\xampp\htdocs\P2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\P2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\P2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-01 20:14:09 --> Invalid file: comercializacion.php
+#0 C:\xampp\htdocs\P2022\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('comercializacio...')
+#1 C:\xampp\htdocs\P2022\system\Common.php(1089): CodeIgniter\View\View->render('comercializacio...', Array, true)
+#2 C:\xampp\htdocs\P2022\app\Controllers\Home.php(29): view('comercializacio...')
+#3 C:\xampp\htdocs\P2022\system\CodeIgniter.php(832): App\Controllers\Home->comercializacion()
+#4 C:\xampp\htdocs\P2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\P2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\P2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-01 20:14:10 --> Invalid file: comercializacion.php
+#0 C:\xampp\htdocs\P2022\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('comercializacio...')
+#1 C:\xampp\htdocs\P2022\system\Common.php(1089): CodeIgniter\View\View->render('comercializacio...', Array, true)
+#2 C:\xampp\htdocs\P2022\app\Controllers\Home.php(29): view('comercializacio...')
+#3 C:\xampp\htdocs\P2022\system\CodeIgniter.php(832): App\Controllers\Home->comercializacion()
+#4 C:\xampp\htdocs\P2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\P2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\P2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-01 20:14:11 --> Invalid file: comercializacion.php
+#0 C:\xampp\htdocs\P2022\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('comercializacio...')
+#1 C:\xampp\htdocs\P2022\system\Common.php(1089): CodeIgniter\View\View->render('comercializacio...', Array, true)
+#2 C:\xampp\htdocs\P2022\app\Controllers\Home.php(29): view('comercializacio...')
+#3 C:\xampp\htdocs\P2022\system\CodeIgniter.php(832): App\Controllers\Home->comercializacion()
+#4 C:\xampp\htdocs\P2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\P2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\P2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-01 20:14:14 --> Invalid file: comercializacion.php
+#0 C:\xampp\htdocs\P2022\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('comercializacio...')
+#1 C:\xampp\htdocs\P2022\system\Common.php(1089): CodeIgniter\View\View->render('comercializacio...', Array, true)
+#2 C:\xampp\htdocs\P2022\app\Controllers\Home.php(29): view('comercializacio...')
+#3 C:\xampp\htdocs\P2022\system\CodeIgniter.php(832): App\Controllers\Home->comercializacion()
+#4 C:\xampp\htdocs\P2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\P2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\P2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-01 20:14:17 --> Invalid file: comercializacion.php
+#0 C:\xampp\htdocs\P2022\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('comercializacio...')
+#1 C:\xampp\htdocs\P2022\system\Common.php(1089): CodeIgniter\View\View->render('comercializacio...', Array, true)
+#2 C:\xampp\htdocs\P2022\app\Controllers\Home.php(29): view('comercializacio...')
+#3 C:\xampp\htdocs\P2022\system\CodeIgniter.php(832): App\Controllers\Home->comercializacion()
+#4 C:\xampp\htdocs\P2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\P2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\P2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-01 20:14:40 --> Invalid file: comercializacion.php
+#0 C:\xampp\htdocs\P2022\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('comercializacio...')
+#1 C:\xampp\htdocs\P2022\system\Common.php(1089): CodeIgniter\View\View->render('comercializacio...', Array, true)
+#2 C:\xampp\htdocs\P2022\app\Controllers\Home.php(29): view('comercializacio...')
+#3 C:\xampp\htdocs\P2022\system\CodeIgniter.php(832): App\Controllers\Home->comercializacion()
+#4 C:\xampp\htdocs\P2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\P2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\P2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-01 21:15:24 --> Invalid file: comercializacion.php
+#0 C:\xampp\htdocs\P2022\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('comercializacio...')
+#1 C:\xampp\htdocs\P2022\system\Common.php(1089): CodeIgniter\View\View->render('comercializacio...', Array, true)
+#2 C:\xampp\htdocs\P2022\app\Controllers\Home.php(29): view('comercializacio...')
+#3 C:\xampp\htdocs\P2022\system\CodeIgniter.php(832): App\Controllers\Home->comercializacion()
+#4 C:\xampp\htdocs\P2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\P2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\P2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-01 21:15:27 --> Invalid file: comercializacion.php
+#0 C:\xampp\htdocs\P2022\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('comercializacio...')
+#1 C:\xampp\htdocs\P2022\system\Common.php(1089): CodeIgniter\View\View->render('comercializacio...', Array, true)
+#2 C:\xampp\htdocs\P2022\app\Controllers\Home.php(29): view('comercializacio...')
+#3 C:\xampp\htdocs\P2022\system\CodeIgniter.php(832): App\Controllers\Home->comercializacion()
+#4 C:\xampp\htdocs\P2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\P2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\P2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-01 21:15:28 --> Invalid file: informacion_de_contacto.php
+#0 C:\xampp\htdocs\P2022\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('informacion_de_...')
+#1 C:\xampp\htdocs\P2022\system\Common.php(1089): CodeIgniter\View\View->render('informacion_de_...', Array, true)
+#2 C:\xampp\htdocs\P2022\app\Controllers\Home.php(38): view('informacion_de_...')
+#3 C:\xampp\htdocs\P2022\system\CodeIgniter.php(832): App\Controllers\Home->informacion_de_contacto()
+#4 C:\xampp\htdocs\P2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\P2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\P2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-01 21:15:29 --> Invalid file: terminos_y_usos.php
+#0 C:\xampp\htdocs\P2022\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('terminos_y_usos...')
+#1 C:\xampp\htdocs\P2022\system\Common.php(1089): CodeIgniter\View\View->render('terminos_y_usos', Array, true)
+#2 C:\xampp\htdocs\P2022\app\Controllers\Home.php(47): view('terminos_y_usos')
+#3 C:\xampp\htdocs\P2022\system\CodeIgniter.php(832): App\Controllers\Home->terminos_y_usos()
+#4 C:\xampp\htdocs\P2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\P2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\P2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-01 21:15:32 --> Invalid file: comercializacion.php
+#0 C:\xampp\htdocs\P2022\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('comercializacio...')
+#1 C:\xampp\htdocs\P2022\system\Common.php(1089): CodeIgniter\View\View->render('comercializacio...', Array, true)
+#2 C:\xampp\htdocs\P2022\app\Controllers\Home.php(29): view('comercializacio...')
+#3 C:\xampp\htdocs\P2022\system\CodeIgniter.php(832): App\Controllers\Home->comercializacion()
+#4 C:\xampp\htdocs\P2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\P2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\P2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-01 22:50:34 --> Invalid file: quienessomos.php
+#0 C:\xampp\htdocs\P2022\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('quienessomos.ph...')
+#1 C:\xampp\htdocs\P2022\system\Common.php(1089): CodeIgniter\View\View->render('quienessomos', Array, true)
+#2 C:\xampp\htdocs\P2022\app\Controllers\Home.php(20): view('quienessomos')
+#3 C:\xampp\htdocs\P2022\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\P2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\P2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\P2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-01 23:25:56 --> Invalid file: principal.php
+#0 C:\xampp\htdocs\P2022\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('principal.php')
+#1 C:\xampp\htdocs\P2022\system\Common.php(1089): CodeIgniter\View\View->render('principal', Array, true)
+#2 C:\xampp\htdocs\P2022\app\Controllers\Home.php(11): view('principal')
+#3 C:\xampp\htdocs\P2022\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\P2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\P2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\P2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-01 23:25:57 --> Invalid file: principal.php
+#0 C:\xampp\htdocs\P2022\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('principal.php')
+#1 C:\xampp\htdocs\P2022\system\Common.php(1089): CodeIgniter\View\View->render('principal', Array, true)
+#2 C:\xampp\htdocs\P2022\app\Controllers\Home.php(11): view('principal')
+#3 C:\xampp\htdocs\P2022\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\P2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\P2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\P2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-01 23:25:58 --> Invalid file: principal.php
+#0 C:\xampp\htdocs\P2022\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('principal.php')
+#1 C:\xampp\htdocs\P2022\system\Common.php(1089): CodeIgniter\View\View->render('principal', Array, true)
+#2 C:\xampp\htdocs\P2022\app\Controllers\Home.php(11): view('principal')
+#3 C:\xampp\htdocs\P2022\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\P2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\P2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\P2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-01 23:51:11 --> Invalid file: principal.php
+#0 C:\xampp\htdocs\P2022\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('principal.php')
+#1 C:\xampp\htdocs\P2022\system\Common.php(1089): CodeIgniter\View\View->render('principal', Array, true)
+#2 C:\xampp\htdocs\P2022\app\Controllers\Home.php(11): view('principal')
+#3 C:\xampp\htdocs\P2022\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\P2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\P2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\P2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

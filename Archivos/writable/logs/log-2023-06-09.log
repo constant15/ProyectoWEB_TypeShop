@@ -1,0 +1,22 @@
+ERROR - 2023-06-09 23:35:49 --> Cannot add or update a child row: a foreign key constraint fails (`olivos_nicolas`.`usuarios`, CONSTRAINT `usuarios_ibfk_1` FOREIGN KEY (`perfil_id`) REFERENCES `perfiles` (`id_perfil`) ON UPDATE CASCADE)
+CRITICAL - 2023-06-09 23:35:49 --> Cannot add or update a child row: a foreign key constraint fails (`olivos_nicolas`.`usuarios`, CONSTRAINT `usuarios_ibfk_1` FOREIGN KEY (`perfil_id`) REFERENCES `perfiles` (`id_perfil`) ON UPDATE CASCADE)
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\usuario_crud_controller.php(50): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(832): App\Controllers\usuario_crud_controller->store()
+#9 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+#10 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-09 23:36:24 --> Creation of dynamic property App\Controllers\Consulta_controller::$consulta is deprecated
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\Consulta_controller.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(809): App\Controllers\Consulta_controller->__construct()
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

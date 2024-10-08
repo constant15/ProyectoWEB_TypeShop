@@ -1,0 +1,16 @@
+CRITICAL - 2023-06-23 00:38:35 --> Undefined property: App\Filters\Auth::$response
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Filters\Auth.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('login', 'before')
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-23 00:38:56 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Filters\Auth.php(14): redirect('http://localhos...')
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('login', 'before')
+#5 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

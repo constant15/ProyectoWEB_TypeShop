@@ -1,0 +1,100 @@
+CRITICAL - 2023-05-26 00:26:01 --> Invalid file: front/navbar.php
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/navbar.ph...')
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Common.php(1089): CodeIgniter\View\View->render('front/navbar', Array, true)
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\usuario_crud_controller.php(13): view('front/navbar')
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(832): App\Controllers\usuario_crud_controller->index()
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+#5 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-26 01:05:23 --> Invalid file: back/usuario/modificaUsuario.php
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/usuario/mo...')
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Common.php(1089): CodeIgniter\View\View->render('back/usuario/mo...', Array, true)
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\usuario_crud_controller.php(95): view('back/usuario/mo...', Array)
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(832): App\Controllers\usuario_crud_controller->singleUser('23')
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+#5 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-26 01:05:33 --> Invalid file: back/usuario/agregarUsuario.php
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/usuario/ag...')
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Common.php(1089): CodeIgniter\View\View->render('back/usuario/ag...', Array, true)
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\usuario_crud_controller.php(23): view('back/usuario/ag...', Array)
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(832): App\Controllers\usuario_crud_controller->create()
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+#5 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-26 01:06:10 --> Invalid file: back/usuario/modificaUsuario.php
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/usuario/mo...')
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Common.php(1089): CodeIgniter\View\View->render('back/usuario/mo...', Array, true)
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\usuario_crud_controller.php(95): view('back/usuario/mo...', Array)
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(832): App\Controllers\usuario_crud_controller->singleUser('23')
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+#5 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-26 01:08:18 --> Invalid file: back/usuario/agregarUsuario.php
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/usuario/ag...')
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Common.php(1089): CodeIgniter\View\View->render('back/usuario/ag...', Array, true)
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\usuario_crud_controller.php(23): view('back/usuario/ag...', Array)
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(832): App\Controllers\usuario_crud_controller->create()
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+#5 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-26 01:14:43 --> Invalid file: back/usuario/modificaUsuario.php
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/usuario/mo...')
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Common.php(1089): CodeIgniter\View\View->render('back/usuario/mo...', Array, true)
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\usuario_crud_controller.php(95): view('back/usuario/mo...', Array)
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(832): App\Controllers\usuario_crud_controller->singleUser('23')
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+#5 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-26 01:15:10 --> Invalid file: back/usuario/modificaUsuario.php
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/usuario/mo...')
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Common.php(1089): CodeIgniter\View\View->render('back/usuario/mo...', Array, true)
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\usuario_crud_controller.php(95): view('back/usuario/mo...', Array)
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(832): App\Controllers\usuario_crud_controller->singleUser('23')
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+#5 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-26 01:18:38 --> Invalid file: back/usuario/modificaUsuario.php
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/usuario/mo...')
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\Common.php(1089): CodeIgniter\View\View->render('back/usuario/mo...', Array, true)
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\usuario_crud_controller.php(95): view('back/usuario/mo...', Array)
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(832): App\Controllers\usuario_crud_controller->singleUser('23')
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+#5 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-26 02:29:43 --> Creation of dynamic property App\Controllers\Consulta_controller::$consulta is deprecated
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\Consulta_controller.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(809): App\Controllers\Consulta_controller->__construct()
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-26 02:33:36 --> Creation of dynamic property App\Controllers\Consulta_controller::$consulta is deprecated
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\Consulta_controller.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(809): App\Controllers\Consulta_controller->__construct()
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-26 03:05:03 --> Creation of dynamic property App\Controllers\Consulta_controller::$consulta is deprecated
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\Consulta_controller.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(809): App\Controllers\Consulta_controller->__construct()
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-26 03:22:41 --> Creation of dynamic property App\Controllers\Consulta_controller::$consulta is deprecated
+#0 C:\xampp\htdocs\Proyecto_olivos_nicolas\app\Controllers\Consulta_controller.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(809): App\Controllers\Consulta_controller->__construct()
+#2 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\Proyecto_olivos_nicolas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Proyecto_olivos_nicolas\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
